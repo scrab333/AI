@@ -59,6 +59,8 @@
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\MoveForward.cs" />
+    <Compile Include="Assets\Scripts\Despawner.cs" />
+    <Compile Include="Assets\Scripts\AI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
