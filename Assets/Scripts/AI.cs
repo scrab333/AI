@@ -2,9 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.MLAgents;
+using Unity.MLAgents.Sensors;
+using UnityEngine.AI;
 using UnityEngine;
 
-public class AI : MonoBehaviour
+public class AI : Agent
 {
     public float jumpHeight;
     public KeyCode jumpKey;
