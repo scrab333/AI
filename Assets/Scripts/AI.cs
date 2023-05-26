@@ -1,12 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
-using UnityEngine.AI;
 using UnityEngine;
-
+using TMPro;
 public class AI : Agent
 {
     public float jumpHeight;
@@ -20,9 +18,6 @@ public class AI : Agent
     private int score = 0;
     public event Action OnReset;
 
-
-
-
     public void Awake()
     {
         rBody = GetComponent<Rigidbody>();
@@ -34,7 +29,6 @@ public class AI : Agent
         if (Input.GetKey(jumpKey))
             Jump();
     }
-
     private void Jump()
     {
         if (jumpIsReady == true)
@@ -69,6 +63,31 @@ public class AI : Agent
             score++;
             scoreText.text = score.ToString();
         }
+    }
+
+    public override void Initialize()
+    {
+        rBody = GetComponent<Rigidbody>();
+        startingPos = transform.position;
+    }
+
+    public override void OnActionReceived(float[] vectorAction)
+    {
+        if (Mathf.FloorToInt(vectorAction[0]) == 1)
+            Jump();
+    }
+    
+    //public override void OnEpisodeBegin()
+    //{
+    //    Reset();
+    //
+    //}
+    
+    public override void Heuristic(float[] actionsOut)
+    {
+        actionsOut[0] = 0;
+        if (Input.GetKey(jumpKey))
+            actionsOut[0] = 1;
     }
 
 }

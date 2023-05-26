@@ -115,8 +115,6 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
--define:MLA_UNITY_PHYSICS_MODULE
--define:MLA_UNITY_PHYSICS2D_MODULE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
@@ -332,6 +330,10 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll"
+-r:"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll"
+-r:"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll"
+-r:"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll"
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.barracuda@2.0.0/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll"
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.burst@1.6.6/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
@@ -343,10 +345,6 @@
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.ml-agents@2.0.1/Plugins/ProtoBuffer/Grpc.Core.dll"
--r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.ml-agents@2.0.1/Plugins/ProtoBuffer/System.Interactive.Async.dll"
--r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.ml-agents@2.0.1/Plugins/System.IO.Abstractions.dll"
--r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.ml-agents@2.0.1/Plugins/System.IO.Abstractions.TestingHelpers.dll"
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Users/scrab/Downloads/unity/AI/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
@@ -360,22 +358,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/AgentEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/BehaviorParametersEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/BrainParametersDrawer.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/BufferSensorComponentEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/CameraSensorComponentEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/DemonstrationDrawer.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/DemonstrationImporter.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/EditorUtilities.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/GridSensorComponentEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/Match3ActuatorComponentEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/Match3SensorComponentEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/MLAgentsSettingsBuildProvider.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/MLAgentsSettingsProvider.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/RayPerceptionSensorComponentBaseEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/RenderTextureSensorComponentEditor.cs"
-"Library/PackageCache/com.unity.ml-agents@2.0.1/Editor/VectorSensorComponentEditor.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/AgentEditor.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/BehaviorParametersEditor.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/BrainParametersDrawer.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/CameraSensorComponentEditor.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/DemonstrationDrawer.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/DemonstrationImporter.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/EditorUtilities.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/RayPerceptionSensorComponentBaseEditor.cs"
+"C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents/Editor/RenderTextureSensorComponentEditor.cs"
 -langversion:9.0
 
 /deterministic
@@ -390,6 +381,6 @@
 /nowarn:1702
 /utf8output
 /preferreduilang:en-US
--warn:0
+
 
 /additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.ML-Agents.Editor.AdditionalFile.txt"

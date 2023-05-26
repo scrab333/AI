@@ -5,20 +5,34 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638206496657293821
-    m_Hash: 4231420206
+      ticks: 638206619180003606
+    m_Hash: 2198934754
   m_LockFileStatus:
     m_FilePath: C:/Users/scrab/Downloads/unity/AI/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638206496657513784
-    m_Hash: 2182068598
+      ticks: 638206619180063529
+    m_Hash: 3968313742
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 637255967790000000
+    m_Hash: 2418176800
+  - m_FilePath: C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
 m_ProjectPath: C:/Users/scrab/Downloads/unity/AI/Packages
 m_EditorVersion: 2021.3.7f1 (24e8595d6d43)
 m_ResolvedPackages:
@@ -498,12 +512,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.ml-agents@2.0.1
+- packageId: com.unity.ml-agents@file:C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents
   testable: 0
   isDirectDependency: 1
-  version: 2.0.1
-  source: 1
-  resolvedPath: C:\Users\scrab\Downloads\unity\AI\Library\PackageCache\com.unity.ml-agents@2.0.1
+  version: 1.0.2-preview
+  source: 4
+  resolvedPath: C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents
   assetPath: Packages/com.unity.ml-agents
   name: com.unity.ml-agents
   displayName: ML Agents
@@ -512,7 +526,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Use state-of-the-art machine learning to create intelligent character
     behaviors in any Unity environment (games, robotics, film, etc.).
   status: 4
@@ -560,11 +574,7 @@ m_ResolvedPackages:
     verified: 2.0.1
   dependencies:
   - name: com.unity.barracuda
-    version: 2.0.0
-  - name: com.unity.modules.imageconversion
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
+    version: 0.7.1-preview
   resolvedDependencies:
   - name: com.unity.barracuda
     version: 2.0.0
@@ -584,15 +594,15 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637719956720000000
+  datePublishedTicks: 0
   documentationUrl: 
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/ml-agents.git
-    revision: 04653e822b9fbca2e276f20ce80e07afe318aa85
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
     version: 2.0.0

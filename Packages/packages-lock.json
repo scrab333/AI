@@ -90,15 +90,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ml-agents": {
-      "version": "2.0.1",
+      "version": "file:C:/Users/scrab/Downloads/ml-agents-release_2/ml-agents-release_2/com.unity.ml-agents",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
-        "com.unity.barracuda": "2.0.0",
-        "com.unity.modules.imageconversion": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
+        "com.unity.barracuda": "0.7.1-preview"
+      }
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.0.2",
