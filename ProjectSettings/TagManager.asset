@@ -4,9 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Street
+  - Mover
+  - target
   - ground
-  - Enemy
+  - goal
+  - agent
+  - block
+  - wall
   - score
+  - DoubleMover
   layers:
   - Default
   - TransparentFX

@@ -1,28 +1,41 @@
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
+
+/*
+ * Spawns the Mover Objects (Enemies) with an interval you determine.
+ */
 public class Spawner : MonoBehaviour
 {
-    //script used to generate enemies
+    [SerializeField] private List<GameObject> spawnableObjects;
+    
+    [Tooltip("The Spawner waits a random number of seconds between these two interval each time a object was spawned.")]
+    [SerializeField] private float minSpawnIntervalInSeconds;
+    [SerializeField] private float maxSpawnIntervalInSeconds;
 
-    public List<GameObject> spawnableObjects;
-    public float minSpawnIntervalInSeconds;
-    public float maxSpawnIntervalInSeconds;
-
-    private Player player;
+    private Jumper jumper;
     private List<GameObject> spawnedObjects = new List<GameObject>();
 
     private void Awake()
     {
-        player = GetComponentInChildren<Player>();
-        player.OnReset += DestroyAllSpawnedObjects;
+        jumper = GetComponentInChildren<Jumper>();
+        //Subscribes to Reset of Player
+        jumper.OnReset += DestroyAllSpawnedObjects;
+        
         StartCoroutine(nameof(Spawn));
     }
-
-
-
+    
+    private IEnumerator Spawn()
+    {
+        var spawned = Instantiate(GetRandomSpawnableFromList(), transform.position, transform.rotation, transform);
+        spawnedObjects.Add(spawned);
+        
+        yield return new WaitForSeconds(Random.Range(minSpawnIntervalInSeconds, maxSpawnIntervalInSeconds));
+        StartCoroutine(nameof(Spawn));
+    }
     private void DestroyAllSpawnedObjects()
     {
         for (int i = spawnedObjects.Count - 1; i >= 0; i--)
@@ -31,23 +44,9 @@ public class Spawner : MonoBehaviour
             spawnedObjects.RemoveAt(i);
         }
     }
-
-    //get object to spawn
     private GameObject GetRandomSpawnableFromList()
     {
         int randomIndex = UnityEngine.Random.Range(0, spawnableObjects.Count);
         return spawnableObjects[randomIndex];
     }
-
-
-    private IEnumerator Spawn()
-    {
-        var spawned = Instantiate(GetRandomSpawnableFromList(), transform.position, transform.rotation, transform);
-        spawnedObjects.Add(spawned);
-
-        yield return new WaitForSeconds(Random.Range(minSpawnIntervalInSeconds, maxSpawnIntervalInSeconds));
-        StartCoroutine(nameof(Spawn));
-    }
-
-
 }

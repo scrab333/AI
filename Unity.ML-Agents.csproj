@@ -56,17 +56,44 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\RawBytesChannel.cs">
+      <Link>Runtime\SideChannels\RawBytesChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Agent.cs">
+      <Link>Runtime\Agent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\FloatPropertiesChannel.cs">
+      <Link>Runtime\SideChannels\FloatPropertiesChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Communicator\GrpcExtensions.cs">
+      <Link>Runtime\Communicator\GrpcExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\AssemblyInfo.cs">
+      <Link>Runtime\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Timer.cs">
+      <Link>Runtime\Timer.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Constants.cs">
+      <Link>Runtime\Constants.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\BehaviorParameters.cs">
       <Link>Runtime\Policies\BehaviorParameters.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent3D.cs">
-      <Link>Runtime\Sensors\RayPerceptionSensorComponent3D.cs</Link>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\DiscreteActionMasker.cs">
+      <Link>Runtime\DiscreteActionMasker.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\DecisionRequester.cs">
-      <Link>Runtime\DecisionRequester.cs</Link>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent2D.cs">
+      <Link>Runtime\Sensors\RayPerceptionSensorComponent2D.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\RawBytesChannel.cs">
-      <Link>Runtime\SideChannels\RawBytesChannel.cs</Link>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationMetaData.cs">
+      <Link>Runtime\Demonstrations\DemonstrationMetaData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\TensorNames.cs">
+      <Link>Runtime\Inference\TensorNames.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\TensorGenerator.cs">
+      <Link>Runtime\Inference\TensorGenerator.cs</Link>
     </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Communicator\UnityRLCapabilities.cs">
       <Link>Runtime\Communicator\UnityRLCapabilities.cs</Link>
@@ -74,74 +101,26 @@
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\StatsRecorder.cs">
       <Link>Runtime\StatsRecorder.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Agent.cs">
-      <Link>Runtime\Agent.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Academy.cs">
-      <Link>Runtime\Academy.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Communicator\ICommunicator.cs">
-      <Link>Runtime\Communicator\ICommunicator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\SideChannelsManager.cs">
-      <Link>Runtime\SideChannels\SideChannelsManager.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\UnityAgentsException.cs">
       <Link>Runtime\UnityAgentsException.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\FloatPropertiesChannel.cs">
-      <Link>Runtime\SideChannels\FloatPropertiesChannel.cs</Link>
     </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponentBase.cs">
       <Link>Runtime\Sensors\RayPerceptionSensorComponentBase.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\SensorShapeValidator.cs">
-      <Link>Runtime\Sensors\SensorShapeValidator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Communicator\GrpcExtensions.cs">
-      <Link>Runtime\Communicator\GrpcExtensions.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensorComponent.cs">
       <Link>Runtime\Sensors\RenderTextureSensorComponent.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\AssemblyInfo.cs">
-      <Link>Runtime\AssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\BarracudaPolicy.cs">
-      <Link>Runtime\Policies\BarracudaPolicy.cs</Link>
     </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\OutgoingMessage.cs">
       <Link>Runtime\SideChannels\OutgoingMessage.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\SideChannel.cs">
-      <Link>Runtime\SideChannels\SideChannel.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\BrainParameters.cs">
-      <Link>Runtime\Policies\BrainParameters.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\IncomingMessage.cs">
-      <Link>Runtime\SideChannels\IncomingMessage.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\StackingSensor.cs">
-      <Link>Runtime\Sensors\StackingSensor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Timer.cs">
-      <Link>Runtime\Timer.cs</Link>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\BarracudaPolicy.cs">
+      <Link>Runtime\Policies\BarracudaPolicy.cs</Link>
     </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\SensorComponent.cs">
       <Link>Runtime\Sensors\SensorComponent.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationWriter.cs">
-      <Link>Runtime\Demonstrations\DemonstrationWriter.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\RenderTextureSensor.cs">
       <Link>Runtime\Sensors\RenderTextureSensor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\StatsSideChannel.cs">
-      <Link>Runtime\SideChannels\StatsSideChannel.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\EpisodeIdCounter.cs">
-      <Link>Runtime\EpisodeIdCounter.cs</Link>
     </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Communicator\RpcCommunicator.cs">
       <Link>Runtime\Communicator\RpcCommunicator.cs</Link>
@@ -149,14 +128,98 @@
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensor.cs">
       <Link>Runtime\Sensors\RayPerceptionSensor.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\IPolicy.cs">
-      <Link>Runtime\Policies\IPolicy.cs</Link>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Utilities.cs">
+      <Link>Runtime\Utilities.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\Utils\RandomNormal.cs">
+      <Link>Runtime\Inference\Utils\RandomNormal.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationRecorder.cs">
+      <Link>Runtime\Demonstrations\DemonstrationRecorder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\RemotePolicy.cs">
+      <Link>Runtime\Policies\RemotePolicy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent3D.cs">
+      <Link>Runtime\Sensors\RayPerceptionSensorComponent3D.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\DecisionRequester.cs">
+      <Link>Runtime\DecisionRequester.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\TensorApplier.cs">
+      <Link>Runtime\Inference\TensorApplier.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\TensorProxy.cs">
+      <Link>Runtime\Inference\TensorProxy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\EnvironmentParametersChannel.cs">
+      <Link>Runtime\SideChannels\EnvironmentParametersChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\VectorSensor.cs">
+      <Link>Runtime\Sensors\VectorSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Academy.cs">
+      <Link>Runtime\Academy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\SensorShapeValidator.cs">
+      <Link>Runtime\Sensors\SensorShapeValidator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\SideChannel.cs">
+      <Link>Runtime\SideChannels\SideChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\BrainParameters.cs">
+      <Link>Runtime\Policies\BrainParameters.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\StackingSensor.cs">
+      <Link>Runtime\Sensors\StackingSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationWriter.cs">
+      <Link>Runtime\Demonstrations\DemonstrationWriter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\StatsSideChannel.cs">
+      <Link>Runtime\SideChannels\StatsSideChannel.cs</Link>
     </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\ApplierImpl.cs">
       <Link>Runtime\Inference\ApplierImpl.cs</Link>
     </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\ISensor.cs">
       <Link>Runtime\Sensors\ISensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\CameraSensor.cs">
+      <Link>Runtime\Sensors\CameraSensor.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\CameraSensorComponent.cs">
+      <Link>Runtime\Sensors\CameraSensorComponent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\GeneratorImpl.cs">
+      <Link>Runtime\Inference\GeneratorImpl.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\ObservationWriter.cs">
+      <Link>Runtime\Sensors\ObservationWriter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\ModelRunner.cs">
+      <Link>Runtime\Inference\ModelRunner.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\EngineConfigurationChannel.cs">
+      <Link>Runtime\SideChannels\EngineConfigurationChannel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\HeuristicPolicy.cs">
+      <Link>Runtime\Policies\HeuristicPolicy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Communicator\ICommunicator.cs">
+      <Link>Runtime\Communicator\ICommunicator.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\SideChannelsManager.cs">
+      <Link>Runtime\SideChannels\SideChannelsManager.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\IncomingMessage.cs">
+      <Link>Runtime\SideChannels\IncomingMessage.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\EpisodeIdCounter.cs">
+      <Link>Runtime\EpisodeIdCounter.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\IPolicy.cs">
+      <Link>Runtime\Policies\IPolicy.cs</Link>
     </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\Observation.cs">
       <Link>Runtime\Sensors\Observation.cs</Link>
@@ -167,74 +230,11 @@
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\Utils\Multinomial.cs">
       <Link>Runtime\Inference\Utils\Multinomial.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Constants.cs">
-      <Link>Runtime\Constants.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\CameraSensor.cs">
-      <Link>Runtime\Sensors\CameraSensor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Utilities.cs">
-      <Link>Runtime\Utilities.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\Utils\RandomNormal.cs">
-      <Link>Runtime\Inference\Utils\RandomNormal.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\DiscreteActionMasker.cs">
-      <Link>Runtime\DiscreteActionMasker.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\CameraSensorComponent.cs">
-      <Link>Runtime\Sensors\CameraSensorComponent.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationRecorder.cs">
-      <Link>Runtime\Demonstrations\DemonstrationRecorder.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\EnvironmentParameters.cs">
       <Link>Runtime\EnvironmentParameters.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\RemotePolicy.cs">
-      <Link>Runtime\Policies\RemotePolicy.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent2D.cs">
-      <Link>Runtime\Sensors\RayPerceptionSensorComponent2D.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\GeneratorImpl.cs">
-      <Link>Runtime\Inference\GeneratorImpl.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationMetaData.cs">
-      <Link>Runtime\Demonstrations\DemonstrationMetaData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\ObservationWriter.cs">
-      <Link>Runtime\Sensors\ObservationWriter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\TensorApplier.cs">
-      <Link>Runtime\Inference\TensorApplier.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\ModelRunner.cs">
-      <Link>Runtime\Inference\ModelRunner.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\TensorNames.cs">
-      <Link>Runtime\Inference\TensorNames.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\TensorProxy.cs">
-      <Link>Runtime\Inference\TensorProxy.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Inference\TensorGenerator.cs">
-      <Link>Runtime\Inference\TensorGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\EnvironmentParametersChannel.cs">
-      <Link>Runtime\SideChannels\EnvironmentParametersChannel.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\SideChannels\EngineConfigurationChannel.cs">
-      <Link>Runtime\SideChannels\EngineConfigurationChannel.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationSummary.cs">
       <Link>Runtime\Demonstrations\DemonstrationSummary.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Sensors\VectorSensor.cs">
-      <Link>Runtime\Sensors\VectorSensor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Runtime\Policies\HeuristicPolicy.cs">
-      <Link>Runtime\Policies\HeuristicPolicy.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -498,38 +498,14 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="System.IO.Abstractions">
+      <HintPath>C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Plugins\System.IO.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Abstractions">
-      <HintPath>C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Plugins\System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
@@ -546,6 +522,9 @@
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
@@ -557,6 +536,12 @@
     </Reference>
     <Reference Include="Grpc.Core">
       <HintPath>C:\Users\scrab\Downloads\ml-agents-release_2\ml-agents-release_2\com.unity.ml-agents\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
