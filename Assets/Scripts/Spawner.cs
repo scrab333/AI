@@ -15,15 +15,25 @@ public class Spawner : MonoBehaviour
     [Tooltip("The Spawner waits a random number of seconds between these two interval each time a object was spawned.")]
     [SerializeField] private float minSpawnIntervalInSeconds;
     [SerializeField] private float maxSpawnIntervalInSeconds;
+    [SerializeField] private int playerOrBot;
 
     private Jumper jumper;
+    private Player player;
     private List<GameObject> spawnedObjects = new List<GameObject>();
 
     private void Awake()
     {
-        jumper = GetComponentInChildren<Jumper>();
-        //Subscribes to Reset of Player
-        jumper.OnReset += DestroyAllSpawnedObjects;
+        if(playerOrBot == 1)
+        {
+            player = GetComponentInChildren<Player>();
+            player.OnReset += DestroyAllSpawnedObjects;
+        }
+        else
+        {
+            jumper = GetComponentInChildren<Jumper>();
+            //Subscribes to Reset of Player
+            jumper.OnReset += DestroyAllSpawnedObjects;
+        }
         
         StartCoroutine(nameof(Spawn));
     }

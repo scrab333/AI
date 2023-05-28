@@ -53,9 +53,9 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter(Collision collidedObj)
     {
-        if (collidedObj.gameObject.CompareTag("ground"))
+        if (collidedObj.gameObject.CompareTag("Street"))
             jumpIsReady = true;
-        else if (collidedObj.gameObject.CompareTag("Enemy"))
+        else if (collidedObj.gameObject.CompareTag("Mover"))
             Reset();
     }
 
