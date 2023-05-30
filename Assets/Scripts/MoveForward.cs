@@ -18,6 +18,6 @@ public class MoveForward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = Vector3.left * speed;
+        rb.velocity = Vector3.back * speed;
     }
 }
